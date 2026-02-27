@@ -1,0 +1,33 @@
+{
+  "name": "pdf2docx",
+  "version": "1.0.0",
+  "description": "CLI tool to convert PDF files to DOCX format",
+  "type": "module",
+  "bin": {
+    "pdf2docx": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/cli.ts",
+    "dev": "tsx src/cli.ts"
+  },
+  "keywords": [
+    "pdf",
+    "docx",
+    "converter",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^14.0.3",
+    "docx": "^9.6.0",
+    "glob": "^13.0.6",
+    "pdfjs-dist": "^4.10.38",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.2"
+  }
+}
